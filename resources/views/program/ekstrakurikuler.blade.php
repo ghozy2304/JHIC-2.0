@@ -67,7 +67,7 @@
                 <div class="flex items-center justify-center gap-3 mb-12 sm:mb-16">
                     <h2 class="text-2xl sm:text-3xl lg:text-[36px] font-bold text-[#0b0d12] tracking-tight font-['Funnel_Display',sans-serif] text-center">
                         Berbagai <span class="text-[#0c61cf]">Ekstrakurikuler</span> Yang Ada di IDN
-                    </h2>
+                    </h2>   
                 </div>
 
                 <!-- 2x2 Grid Layout -->

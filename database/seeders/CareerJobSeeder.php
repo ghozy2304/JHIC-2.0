@@ -393,11 +393,9 @@ class CareerJobSeeder extends Seeder
             ],
         ];
 
-        // Truncate or clean table first to remove wrong entries
-        CareerJob::truncate();
-
+        // Use updateOrCreate so running seeder on redeploy won't wipe custom admin jobs
         foreach ($jobs as $job) {
-            CareerJob::create($job);
+            CareerJob::updateOrCreate(['id' => $job['id']], $job);
         }
     }
 }
